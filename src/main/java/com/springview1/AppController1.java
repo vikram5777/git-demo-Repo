@@ -17,4 +17,10 @@ public class AppController1 {
 		System.out.println("home handeller");
 		return "contact";
 	}
+	
+	@GetMapping("/hmm")
+	public String getjsp1() {
+		System.out.println("home handeller");
+		return "contact";
+	}
 }
